@@ -1,8 +1,9 @@
 <?php
-
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
+
+//todo gérer le coeur de l'appli en POO
 require_once('libs/Smarty.class.php');
 $smarty = new Smarty();
 
@@ -14,7 +15,9 @@ $pages = array('Categorie' => 'CategorieController',
     '' => 'accueil.php'
 );
 $action = (isset($_GET['action'])) ? $_GET['action'] : 'liste';
-
+/**
+ * Exemple d'utilisation index.php?page=accueil&action=liste
+ */
 if (array_key_exists($page, $pages)) {
     require("Controllers/" . $pages[$page] . ".php");
     $ctrl = new $pages[$page]();

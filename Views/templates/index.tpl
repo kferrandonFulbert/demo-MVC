@@ -1,3 +1,4 @@
+<!-- Template de base avec le moteur de template Smarty -->
 <!DOCTYPE html>
 <html>
     <head>
