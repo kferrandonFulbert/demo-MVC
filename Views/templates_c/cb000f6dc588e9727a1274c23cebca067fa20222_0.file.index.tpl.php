@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.0, created on 2022-05-04 14:57:59
+/* Smarty version 4.1.0, created on 2022-05-05 07:21:40
   from 'D:\laragon\www\demo-mvc\Views\templates\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.0',
-  'unifunc' => 'content_62729477a6ceb2_22110386',
+  'unifunc' => 'content_62737b04aaf409_04083448',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'cb000f6dc588e9727a1274c23cebca067fa20222' => 
     array (
       0 => 'D:\\laragon\\www\\demo-mvc\\Views\\templates\\index.tpl',
-      1 => 1651676276,
+      1 => 1651685939,
       2 => 'file',
     ),
   ),
@@ -20,8 +20,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_62729477a6ceb2_22110386 (Smarty_Internal_Template $_smarty_tpl) {
-?><!DOCTYPE html>
+function content_62737b04aaf409_04083448 (Smarty_Internal_Template $_smarty_tpl) {
+?><!-- Template de base avec le moteur de template Smarty -->
+<!DOCTYPE html>
 <html>
     <head>
         <title><?php echo $_smarty_tpl->tpl_vars['vue']->value["titre"];?>

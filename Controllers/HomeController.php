@@ -2,7 +2,7 @@
 /**
  * Class d'un controlleur très simple.
  */
-class AccueilController {
+class HomeController {
 
     /**
      * Rien pour le moment
@@ -15,7 +15,7 @@ class AccueilController {
      * On retourne un tableau associative à la vue.
      * @return Array
      */
-    public function liste() {
+    public function list() {
         $mvc = ["Models","Views","Controllers", "libs"];
         return ["titre" => "Accueil du site",
             "description" => "Demo mvc en PHP",
