@@ -39,4 +39,28 @@ class CategoryModel extends Model {
         return $sth->execute();
     }
 
+    /**
+     * Mise a jour de la catégorie
+     * @param int $unId
+     * @param string $unLibelle
+     * @return int
+     */
+    public function update(int $unId, string $unLibelle) {
+        $sth = $this->_pdo->prepare("update " . $this->_table .
+                " SET libelle=:libelle where id = :id");
+        $sth->bindParam(':id', $unId, PDO::PARAM_INT);
+        $sth->bindParam(':libelle', $unLibelle, PDO::PARAM_STR);
+        
+      // $sth->debugDumpParams();die;
+        return $sth->execute();
+    }
+
+    public function selectById(int $unId) {
+        $sth = $this->_pdo->prepare("select * from " . $this->_table .
+                " where id = :id");
+        $sth->bindParam(':id', $unId, PDO::PARAM_INT);
+        $sth->execute();
+        return $sth->fetchAll();
+    }
+
 }

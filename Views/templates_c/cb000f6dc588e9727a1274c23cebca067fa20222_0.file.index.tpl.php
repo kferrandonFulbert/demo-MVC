@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.0, created on 2022-05-05 07:21:40
+/* Smarty version 4.1.0, created on 2022-05-24 15:00:58
   from 'D:\laragon\www\demo-mvc\Views\templates\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.0',
-  'unifunc' => 'content_62737b04aaf409_04083448',
+  'unifunc' => 'content_628cf32a0128b8_76397742',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'cb000f6dc588e9727a1274c23cebca067fa20222' => 
     array (
       0 => 'D:\\laragon\\www\\demo-mvc\\Views\\templates\\index.tpl',
-      1 => 1651685939,
+      1 => 1653404448,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_62737b04aaf409_04083448 (Smarty_Internal_Template $_smarty_tpl) {
+function content_628cf32a0128b8_76397742 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- Template de base avec le moteur de template Smarty -->
 <!DOCTYPE html>
 <html>
@@ -34,8 +34,7 @@ function content_62737b04aaf409_04083448 (Smarty_Internal_Template $_smarty_tpl)
  src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"><?php echo '</script'; ?>
 >
     </head>
-    <body>
-        
+    <body>      
         <div class="container">
             <h1><?php echo $_smarty_tpl->tpl_vars['vue']->value["titre"];?>
 </h1>
