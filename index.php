@@ -22,7 +22,7 @@ $pages = array('categorie' => 'CategoryController',
 );
 $action = (isset($_GET['action'])) ? $_GET['action'] : 'list';
 /**
- * Exemple d'utilisation index.php?page=category&action=list
+ * Exemple d'utilisation index.php?page=categorie&action=list
  */
 if (array_key_exists($page, $pages)) {
     require("Controllers/" . $pages[$page] . ".php");
