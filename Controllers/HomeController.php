@@ -17,8 +17,8 @@ class HomeController {
      */
     public function list() {
         $mvc = ["Models","Views","Controllers", "libs"];
-        return ["titre" => "Accueil du site",
-            "description" => "Demo mvc en PHP",
+        return ["titre" => "Audit référencement de site web",
+            "description" => "Seo café audit votre site web, simplement et compréhensible par tous.",
             "mvc"=>$mvc
         ];
     }

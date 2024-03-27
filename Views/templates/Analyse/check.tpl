@@ -1,0 +1,31 @@
+<p>{$vue.description}<p>
+<h2>{$vue.site}</h2>
+<h3></h3>
+<div>
+    <table>
+    <thead><tr>
+    <td>Balise</td>
+    <td>Valeur</td>
+    <td>Info</td>
+    </tr></thead>
+    <tbody>
+    <tr>
+    <td>Titre</td>
+    <td>{$vue.title}</td>
+    <td>...</td>
+    </tr>
+    <tr><td>description</td>
+    <td>{$vue.meta_desc}</td>
+    <td>...</td>
+    </tr>
+    {foreach from=$vue.Hx key=k item=Hn}
+        {foreach from=$Hn key=n item=val}
+        <tr>
+        <td>H{$k+1}</td>
+        <td>{$val}</td>            
+        </tr>
+    {/foreach} 
+        {/foreach} 
+    </tbody>
+    </table>
+</div>

@@ -16,7 +16,7 @@ $smarty->cache_dir = 'Views/cache/';
 // Routeur (gestion des routes)
 $page = isset($_GET['page']) ? $_GET['page'] : 'Accueil';
 $pages = array('categorie' => 'CategoryController',
-    'Produit' => 'ProduitController',
+    'analyse' => 'AnalyseController',
     'Accueil' => 'HomeController',
     '' => 'HomeController'
 );

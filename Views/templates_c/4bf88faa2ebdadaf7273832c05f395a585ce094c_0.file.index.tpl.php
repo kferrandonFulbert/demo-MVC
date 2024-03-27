@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.0, created on 2022-05-24 15:00:58
-  from 'D:\laragon\www\demo-mvc\Views\templates\index.tpl' */
+/* Smarty version 4.1.0, created on 2023-02-11 11:51:38
+  from 'D:\wamp64\www\Perso\seo-cafe\Views\templates\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.0',
-  'unifunc' => 'content_628cf32a0128b8_76397742',
+  'unifunc' => 'content_63e7814a7826a3_03055501',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    'cb000f6dc588e9727a1274c23cebca067fa20222' => 
+    '4bf88faa2ebdadaf7273832c05f395a585ce094c' => 
     array (
-      0 => 'D:\\laragon\\www\\demo-mvc\\Views\\templates\\index.tpl',
-      1 => 1653404448,
+      0 => 'D:\\wamp64\\www\\Perso\\seo-cafe\\Views\\templates\\index.tpl',
+      1 => 1676116204,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_628cf32a0128b8_76397742 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63e7814a7826a3_03055501 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- Template de base avec le moteur de template Smarty -->
 <!DOCTYPE html>
 <html>
@@ -43,6 +43,7 @@ echo $_smarty_tpl->tpl_vars['tpl']->value;
 $_prefixVariable1 = ob_get_clean();
 $_smarty_tpl->_subTemplateRender($_prefixVariable1, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, true);
 ?>
+         
         </div>
     </body>
 </html>

@@ -12,6 +12,7 @@
         <div class="container">
             <h1>{$vue["titre"]}</h1>
             {include file={$tpl}}
+         
         </div>
     </body>
 </html>
